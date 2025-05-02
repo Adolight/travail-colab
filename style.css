@@ -9,7 +9,7 @@ body {
     height: 100%;
 }
 
-/* Entete */
+/*-----------------------Entete----------------------------*/
 
 #entete{
     display: flex;
@@ -28,19 +28,32 @@ body {
    color: white;
 }
 
-li{
-    list-style: none;
-    display: inline;
-    margin-top: 50px;
-}
-a {
+#entete nav a {
     text-decoration: none;
     padding-left: 50px;
     color: white;
+    font-size: 20px;
+    transition: transform 0.3s ease;
 }
 
+#entete nav a:hover {
+    color: blueviolet;
+    transform: scale(1.09);
+}
+#entete nav {
+    display: flex;
+    align-items: center;
+}
+#entete nav .pannier {
+    margin-left: auto;
+    margin-left: 150px;
+}
+#entete nav .home{
+    color: brown;
+    font-weight: bolder;
+}
 
-/* Bloc 2*/
+/*Bloc 2*/
 #two-bloc{
     display: flex;
     gap: 20px;
@@ -58,13 +71,34 @@ a {
     
 }
 
+/*-------------------les trois blocs objectif, mission et valeur------------------*/
+
 #one-bloc {
+    display: flex;
     width: 95%;
-    background-color: blue;
-    height: 10vh;
+    background-color: rgb(225, 225, 235);
+    height: 35vh;
     margin: 30px 30px 0 40px;
     right: 2%;
+    padding: 20px 20px;
+    gap: 35px;
+    border-radius: 8px;
 }
+#one-bloc .objectif {
+    width: 33%;
+}
+#one-bloc .objectif h3 {
+    text-align: center;
+    margin: 10px;
+}
+#one-bloc .objectif fieldset {
+    padding: 30px;
+    box-shadow: 4px 4px 12px rgba(56, 55, 55, 0.6);
+}
+#one-bloc .objectif fieldset span {
+    font-weight: bolder;
+}
+
 h1 {
     text-align: center;
 }
@@ -93,19 +127,106 @@ h1 {
     height: 20vh;
     background-color: blue;  
 }
-.three-bloc {
+
+/*-----------------pour les bouton d'achat, de commande et de livraison-------------------*/
+#three-bloc {
     display: flex;
     width: 30%;
-    background-color: blue;
     gap: 30px;
-}
-#footer {
-    width: 100%;
-    height: 10vh;
-    background-color: rgba(0, 0, 0, 0.6);
-}
-#footer h1{
-    color: white;
     text-align: center;
-    padding: 30px 0;
+}
+#three-bloc .trois-bloc {
+    width: 12vw;
+    height: 20vh;
+    margin-left: 47%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#three-bloc .trois-bloc img {
+    display: block;
+    width: 100px;
+    height: 80px;
+    border-radius: 8px;
+    margin: 10px 35px;
+    box-shadow: 4px 4px 12px rgba(56, 55, 55, 0.6);
+    transition: transform 0.3s ease;
+}
+#three-bloc .trois-bloc img:hover{
+    transform: scale(1.05);
+}
+#three-bloc .trois-bloc h3 {
+ margin-left: 20px;
+ text-align: center;
+ margin: 0 30px;
+}
+
+ /*--------------------le pieds de la page---------------------------*/
+#footer {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.801);
+    gap: 20px;
+}
+#footer .racourcis a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 0;
+    margin: 10px;
+    font-size: 18px;
+}
+#footer .racourcis a:hover{
+    color: blueviolet;
+}
+#footer .racourcis .elmnt_racourcis {
+    display: inline-block;
+    padding: 30px;
+}
+#footer .adresse a {
+    text-decoration: none;
+    color: rgb(209, 172, 172);
+    padding: 15px;
+}
+#footer .adresse a:hover{
+    color: blueviolet;
+}
+#footer h3{
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+#footer .racourcis {
+    display: block;
+    width: 25%;
+    padding: 40px 0;
+}
+#footer .adresse {
+    width: 25%;
+    padding: 40px 0;
+}
+#footer .confi {
+    overflow: hidden;
+    width: 25%;
+    height: 100%;
+    padding: 40px;
+}
+#footer .compte {
+    width: 25%;
+    padding: 40px 0;
+}
+#footer .compte a {
+    text-decoration: none;
+    color: rgb(209, 172, 172);
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+#footer .compte a:hover {
+    color: blueviolet;
+    transform: scale(1.05);
+}
+#footer p {
+    overflow: hidden;
+    color: white;
+    margin: 15px;
+
 }
