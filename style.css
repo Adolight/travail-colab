@@ -201,8 +201,7 @@ h1 {
     text-align: center;
 }
 
-<<<<<<< HEAD
-=======
+
 .rang-1 {
     display: flex;
     width: 96%;
@@ -218,7 +217,7 @@ h1 {
 
 
 /*-------------------------------Bloc 4 de la structure rang2---------------------------------*/
->>>>>>> origin/déesse
+
 .rang-2 {
     display: flex;
     width: 96%;
@@ -240,12 +239,8 @@ h1 {
     border-radius: 6px;
 }
 
-<<<<<<< HEAD
 /*-----------------pour les bouton d'achat, de commande et de livraison-------------------*/
-#three-bloc {
-    display: flex;
-    width: 30%;
-=======
+
 div .container-image{
     text-align: center;
 }
@@ -285,11 +280,10 @@ div .container-image{
     display: flex;
     width: 30%;
     background-color: rgb(196, 196, 218);
->>>>>>> origin/déesse
     gap: 30px;
     text-align: center;
 }
-<<<<<<< HEAD
+
 #three-bloc .trois-bloc {
     width: 12vw;
     height: 20vh;
@@ -298,7 +292,7 @@ div .container-image{
     margin-bottom: 20px;
 }
 #three-bloc .trois-bloc img {
-    display: block;
+    display: flex;
     width: 100px;
     height: 80px;
     border-radius: 8px;
@@ -385,7 +379,7 @@ div .container-image{
     margin: 15px;
 
 }
-=======
+
 /*----------bloc4 rang-1--------------*/
 
 
@@ -416,4 +410,3 @@ div .container-image{
     border-radius: 6px;
     padding: 5px;
 }
->>>>>>> origin/lamadine
