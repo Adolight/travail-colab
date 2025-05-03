@@ -276,10 +276,9 @@ div .container-image{
     border-radius: 6px;
    }
 
-.three-bloc {
+#three-bloc {
     display: flex;
     width: 30%;
-    background-color: rgb(196, 196, 218);
     gap: 30px;
     text-align: center;
 }
@@ -290,9 +289,10 @@ div .container-image{
     margin-left: 47%;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 50px;
 }
 #three-bloc .trois-bloc img {
-    display: flex;
+    display: block;
     width: 100px;
     height: 80px;
     border-radius: 8px;
