@@ -97,7 +97,7 @@ body {
 #two-bloc{
     display: flex;
     gap: 1px;
-    margin-top:40px ;
+    margin-top:20px ;
 }
 .left  {
     height: 600px;
