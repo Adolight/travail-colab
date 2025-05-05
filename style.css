@@ -10,18 +10,20 @@ body {
 }
 
 /*-----------------------Entete----------------------------*/
-
-#entete{
+#entete, nav , #menu-panier{
     display: flex;
+}
+#entete{
     height: 10vh;
     width: 98%;
     background-color: gray;
-    gap: 1000px;
+    gap: 500px;
     padding: 30px 50px 50px 50px;
     left: 1%;
     margin-bottom: 30px;
     margin-left: 20px;
 }
+
 
 .titre{
    font-size: 35px;
@@ -33,6 +35,7 @@ body {
     padding-left: 50px;
     color: white;
     font-size: 20px;
+    font-weight: bold;
     transition: transform 0.3s ease;
 }
 
@@ -44,14 +47,37 @@ body {
     display: flex;
     align-items: center;
 }
-#entete nav .pannier {
-    margin-left: auto;
-    margin-left: 150px;
-}
-#entete nav .home{
-    color: brown;
-    font-weight: bolder;
-}
+
+ /*Menu panier*/
+#menu-panier {
+    position: relative;
+    display: flex;
+  }
+
+  #contenu-panier {
+    display: none;
+    position: absolute;
+    margin-top: 35px;
+    left: 0;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-width: 300px;
+    z-index: 100;
+  }
+
+  #menu-panier:hover #contenu-panier {
+    display: block;
+  }
+
+#menu-panier  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+
 
 /*Bloc 2*/
 #two-bloc{
