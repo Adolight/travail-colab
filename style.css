@@ -16,12 +16,14 @@ body {
 #entete{
     height: 10vh;
     width: 98%;
-    background-color: gray;
+    background-color: rgb(53, 50, 50);
     gap: 500px;
     padding: 30px 50px 50px 50px;
     left: 1%;
     margin-bottom: 30px;
     margin-left: 20px;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.1);
+    border: ;
 }
 
 
@@ -200,9 +202,9 @@ input[type=submit]:hover {
 #one-bloc {
     display: flex;
     width: 95%;
-    background-color: rgb(225, 225, 235);
+    background-color: rgb(255, 255, 255);
     height: 35vh;
-    margin: 30px 30px 0 40px;
+    margin: 30px 30px 100px 40px;
     right: 2%;
     padding: 20px 20px;
     gap: 35px;
@@ -223,38 +225,55 @@ input[type=submit]:hover {
     font-weight: bolder;
 }
 
+
+
+/*----------bloc4 rang-1--------------*/
+
 h1 {
     text-align: center;
 }
 
-
 .rang-1 {
     display: flex;
     width: 96%;
-    gap: 40px;
-    margin: 25px 0px;
-    margin-left:40px ;
+    gap: 80px;
+    margin: 25px 0 100px 0px;
+    margin-left:150px ;
 }
 .rang-1 .produit-rang-1{
-    width: 18%;
-    height: 20vh;
-    background-color: blue;
+    width: 14%;
+    height: 30vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 12px rgba(56, 56, 56, 0.6);
+    border-radius: 5px;
+}
+.rang-1 .produit-rang-1 img {
+    box-shadow: 4px 4px 12px rgba(56, 56, 56, 0.6);
+    border-radius: 5px;
 }
 
+.rang-1 .produit-rang-1 p {
+    text-align: center;
+}
+.rang-1 .produit-rang-1 p button {
+    background-color:rgb(68, 226, 231) ;
+    border-radius: 6px;
+    padding: 5px;
+}
 
 /*-------------------------------Bloc 4 de la structure rang2---------------------------------*/
 
 .rang-2 {
     display: flex;
     width: 96%;
-    gap: 40px;
+    gap: 80px;
     margin: 25px 0px;
-    margin-left:40px ;
+    margin-left:150px ;
 }
 .rang-2 .produit-rang-1 {
-    width: 18%;
+    width: 14%;
     height: 30vh;
-    background-color: rgb(217, 217, 228);
+    background-color: rgb(255, 255, 255);
     box-shadow: 4px 4px 12px rgba(56, 56, 56, 0.6);
     border-radius: 6px;
     
@@ -281,41 +300,41 @@ div .container-image{
 .marque {
     display: flex;
     width: 96%;
-    gap: 40px;
-    margin: 25px 0px;
-    margin-left:40px ;
+    gap: 140px;
+    margin: 40px 0 100px 0;
+    margin-left:150px ;
 }
 .marque .contenair{
-    width: 23%;
+    width: 16%;
     height: 30vh;
-    background-color: rgb(217, 217, 228);
+    background-color: rgb(255, 255, 255);
     box-shadow: 4px 4px 12px rgba(56, 56, 56, 0.6);
     border-radius: 6px;
 }
 .marque .contenair button {
     padding: 5px;
-    background-color: rgb(68, 226, 231);
+    background-color: rgb(68, 231, 223);
     border-radius: 6px;
    }
    .marque .contenair img{
     box-shadow:  4px 4px 12px rgba(56, 56, 56, 0.6);
     border-radius: 6px;
    }
-
+/*------------------- les bouton de livraison, de commande et d'achat ---------------------*/
 #three-bloc {
     display: flex;
     width: 30%;
-    gap: 30px;
+    gap: 40px;
     text-align: center;
 }
 
 #three-bloc .trois-bloc {
     width: 12vw;
     height: 20vh;
-    margin-left: 47%;
+    margin-left: 60%;
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-top: 80px;
 }
 #three-bloc .trois-bloc img {
     display: block;
@@ -406,33 +425,4 @@ div .container-image{
 
 }
 
-/*----------bloc4 rang-1--------------*/
 
-
-.rang-1 {
-    display: flex;
-    width: 96%;
-    gap: 40px;
-    margin: 25px 0px;
-    margin-left:40px ;
-}
-.rang-1 .produit-rang-1{
-    width: 18%;
-    height: 30vh;
-    background-color: rgba(217, 217, 228);
-    box-shadow: 4px 4px 12px rgba(56, 56, 56, 0.6);
-    border-radius: 5px;
-}
-.rang-1 .produit-rang-1 img {
-    box-shadow: 4px 4px 12px rgba(56, 56, 56, 0.6);
-    border-radius: 5px;
-}
-
-.rang-1 .produit-rang-1 p {
-    text-align: center;
-}
-.rang-1 .produit-rang-1 p button {
-    background-color:rgb(68, 226, 231) ;
-    border-radius: 6px;
-    padding: 5px;
-}
