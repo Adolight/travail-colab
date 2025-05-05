@@ -16,14 +16,15 @@ body {
 #entete{
     height: 10vh;
     width: 98%;
-    background-color: rgb(53, 50, 50);
+    background-color: rgba(0,0,0,0.801);
     gap: 500px;
     padding: 30px 50px 50px 50px;
     left: 1%;
     margin-bottom: 30px;
     margin-left: 20px;
     box-shadow: 4px 4px 12px rgba(0,0,0,0.1);
-    border: ;
+    border-bottom-left-radius:6px ;
+    border-bottom-right-radius: 6px;
 }
 
 
@@ -49,7 +50,10 @@ body {
     display: flex;
     align-items: center;
 }
-
+#entete nav a.home {
+    color: rgb(248, 136, 136);
+    font-weight: 40px;
+}
  /*Menu panier*/
 #menu-panier {
     position: relative;
@@ -66,6 +70,14 @@ body {
     padding: 10px;
     min-width: 300px;
     z-index: 100;
+  }
+  #entete div a {
+    transition: transform 0.3s ease;
+  }
+  #entete div a:hover {
+    transform: scale(1.05);
+    color: blueviolet;
+    font-weight: 40px;
   }
 
   #menu-panier:hover #contenu-panier {
@@ -85,6 +97,7 @@ body {
 #two-bloc{
     display: flex;
     gap: 1px;
+    margin-top:40px ;
 }
 .left  {
     height: 600px;
@@ -206,7 +219,7 @@ input[type=submit]:hover {
     height: 35vh;
     margin: 30px 30px 100px 40px;
     right: 2%;
-    padding: 20px 20px;
+    padding: 60px 20px;
     gap: 35px;
     border-radius: 8px;
 }
